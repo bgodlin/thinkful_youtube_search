@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Youtube video list</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Video List</h1>
+
+    <form id="js-video-list-form">
+      <label for="video-list-entry">Add an item</label>
+      <input type="text" name="video-list-entry" id="video-list-entry" placeholder="e.g., broccoli">
+      <button type="submit">Add item</button>
+    </form>
+
+    <ul class="video-list">
+    </ul>
+  </div>
+
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
